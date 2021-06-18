@@ -1,0 +1,44 @@
+.Title {
+  margin: 2rem 0;
+}
+.containerCards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.flex-one {
+  flex: 25%;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+.flex-two {
+  flex: 25%;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+.flex-three {
+  flex: 25%;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+.flex-four {
+  flex: 25%;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+
+.card {
+  width: 15rem;
+  height: 7rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+nav {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 800px) {
+  .containerCards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
