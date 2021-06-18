@@ -19,6 +19,8 @@ const Screen_one = () => {
         <div className="flex-two">
           <Card />
         </div>
+      </div>
+      <div className="containerDonat">
         <Donat />
       </div>
     </div>

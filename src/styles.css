@@ -24,17 +24,25 @@
   padding: 0.25rem 0.25rem 0.25rem 0.25rem;
 }
 
-.card {
+#card {
   width: 15rem;
   height: 7rem;
+}
+.card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
 }
-
 nav {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.containerDonat {
+  padding: 2rem 0.25rem 0.25rem 0.25rem;
+}
+
+.cardDonat {
+  height: 10rem;
+}
 @media (max-width: 800px) {
   .containerCards {
     flex-direction: column;

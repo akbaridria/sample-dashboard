@@ -1,5 +1,6 @@
 import React from "react";
 import { Doughnut } from "react-chartjs-2";
+import "../styles.css";
 
 const data = {
   labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
@@ -29,20 +30,14 @@ const data = {
 };
 
 const Donat = () => (
-  <>
-    <div className="header">
-      <h1 className="title">Doughnut Chart</h1>
-      <div className="links">
-        <a
-          className="btn btn-gh"
-          href="https://github.com/reactchartjs/react-chartjs-2/blob/master/example/src/charts/Doughnut.js"
-        >
-          Github Source
-        </a>
+  <div className="card">
+    <div className="card-body">
+      <h4 className="title">Doughnut Chart</h4>
+      <div className="col-md-4">
+        <Doughnut data={data} />
       </div>
     </div>
-    <Doughnut data={data} />
-  </>
+  </div>
 );
 
 export default Donat;
